@@ -1,0 +1,17 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfvars
+
+# Chaves e credenciais
+*.pem
+*.key
+
+# Diretórios gerados
+.terraform/
+.terraform.lock.hcl
+
+# Outros arquivos que você não deseja versionar
+*.log
+
